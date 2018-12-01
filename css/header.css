@@ -1,0 +1,44 @@
+header {
+	display: flex;
+	position: fixed;
+	height: 60px;
+	width: 100%;
+	background: white;
+	/*border-bottom: 1px solid rgb(1,51,89) /*rgb(236, 240, 245)*/;*/
+	font-family: 'Titillium Web','Dosis','Josefin Sans',sans-serif;
+	z-index: 100000;
+	background: red;
+}
+
+.icon-user-circle{
+	font-size: 30pt;
+	float: left;
+	position: relative;
+	top: 5px;
+	left: 1px;
+}
+
+#perfil {
+	display: block;
+	position: absolute;
+	left: 60px;
+	top: 10px;
+}
+
+#perfil h3 {
+	font-size: 15pt;
+}
+
+.menu-header {
+	display: flex;
+	position: absolute;
+	font-size: 13pt;
+	right: 5px;
+	top: 20px;
+}
+
+.menu-header li {
+	font-size: 14pt;
+	margin-left: 5px; 
+}
+

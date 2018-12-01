@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+<script type="text/javascript" src="http://malsup.github.com/jquery.cycle.all.js"></script>﻿
+
+	<script type="text/javascript">
+
+		$(function() {
+			$('#Slides ul').cycle ({
+				fx: 'fade',
+				speed: 2000,
+				timeout: 4000,
+				mouseWheel : true,
+			})
+		})
+		
+	</script>
+
+</head>
+<body>
+	
+	<div id="Slides">
+		<ul>
+			<li><img src="../imagens/banner-495x170-nota_oficial.png" alt=""></li>
+			<li><img src="../imagens/banner-aviso.jpg" alt=""></li>
+		</ul>
+	</div>
+</body>
+</html>

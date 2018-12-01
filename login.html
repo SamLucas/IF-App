@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<link rel="stylesheet" href="css/padrao.css">
+
+	<style>
+		
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		body {
+			background-image: url(imagens/background.jpg);
+		}
+
+		.corpo {
+			display: block;
+			width: 280px;
+			background: white;
+			margin: 20% auto 0;
+			height: 280px;
+			border-radius: 5px;
+			border-top: 10px solid;
+			border-color: var(--corpadrao);
+			padding: 10px;
+			position: relative;
+			box-shadow: 1px 3px rgba(0,0,0,0.2);
+			border-left: 1px solid rgba(0,0,0,0.2);
+		}
+		
+		form {
+			display: block;
+			width: 100%;
+
+		}
+
+		input[type="text"], input[type="submit"] , input[type="password"] {
+			display: block;
+			margin: 5px;
+			padding: 2px 0;
+			font-size: 14pt;
+			border: none;
+			outline: 0;
+			position: relative;
+		}
+
+		input[type="text"], input[type="password"]{
+			/*background: rgba(0,0,0,.1);*/
+			display: block;
+			width: 92%;
+			border-bottom: 1px solid;
+			border-color: var(--corpadrao);
+			margin: 0 auto;
+		}
+		
+		input[type="submit"] {
+			background:  var(--corpadrao);
+			color: white;
+			width: 40%;
+			padding: 10px 0;
+			margin: 0;
+			margin-top: 40px;
+			border-radius: 5px;
+			float: right;
+		}
+
+		label {
+			display: block;
+			margin-top: 10px;
+			padding: 10px;
+		}
+		
+		h1 {
+			margin-bottom: 10px;
+		}
+	</style>
+
+
+</head>
+<body>
+
+	<div class="corpo">
+		<h1>Sistema Acadêmico</h1>
+		<form action="">
+			<label for="user">Nome de  usuário</label>
+			<input type="text" name="pass" id="user" >
+			<label for="pass">Senha</label>
+			<input type="password" name="pass" id="pass">
+
+			<input type="submit" value="Enviar">
+		</form>
+	</div>
+	
+</body>
+</html>

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis|Josefin+Sans|Titillium+Web');
+
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	--fonte_padrao: 'Titillium Web','Dosis','Josefin Sans',sans-serif;
+	--fonte_titulo: 'Arial', sans-serif;;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #F4F4F4;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    background: #F4F4F4;
+    border-radius: 50px;
+}
+::-webkit-scrollbar-thumb {
+    background: #dad7d7;
+}
+
+input[type="checkbox"] {display: none;}
+
+
+

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<meta charset="UTF-8">	
+	<link rel="stylesheet" href="fontello-ecf2a369/css/fontello.css">
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link rel="stylesheet" type="text/css" href="css/padrao.css">
+
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+	<!-- <script type="text/javascript" src="http://malsup.github.com/jquery.cycle.all.js"></script>﻿ -->
+	
+	<script>
+		
+		$(function() {
+			$('.slide').cycle({ 
+				fx:    'curtainX', 
+				sync:  false, 
+				delay: -2000 
+			});
+		})
+	</script>
+
+	<style>
+		
+		.slide {
+			position: absolute;
+			top: 116px;
+			left: 0;
+			height: 77.3%;
+			width: 100%;
+		}
+
+		header {
+			background: white;
+		}
+		
+		#aviso {
+			margin-left: 100%;
+			height: 100%;
+		}
+
+		#pesquisa {
+			margin-left: 300%;
+			height: 100%;
+
+		}
+
+		#caledario {
+			margin-left: 200%;
+
+		}
+
+	</style>
+
+
+</head>
+<body>
+
+	<header>
+		<ul class="menu-header">
+			<li><p class="icon-ellipsis-vert"></p></li>
+		</ul>
+		<p class="icon-user-circle">
+			<div id="perfil">
+			<h3>Samuel Lucas</h3>ifsuldeminas Muzambinho
+			</div>
+		</p>
+	</header>
+	
+	<iframe id="noticia" src="noticias.html" frameborder="0" style="position:absolute;top:0;left:0;widht:100%;height:100%;"></iframe>
+	
+	<!-- <div class="slide">
+	<iframe id="noticia" src="noticias.html" frameborder="0" style="position:absolute;top:0;left:0;widht:100%;height:100%;"></iframe>
+	<iframe id="aviso" src="aviso.html" frameborder="0" style="position:absolute;top:0;left:0;widht:100%;height:100%;"></iframe>
+	<iframe id="caledario" src="AdminLTE-2.3.11\pages\calendar.html" frameborder="0" style="position:absolute;top:0;left:0;widht:100%;height:100%;"></iframe></div>
+
+	<iframe id="pesquisa" src="pesquisa.html" frameborder="0" style="position:absolute;top:0;left:0;widht:100%;height:100%;z-index:324234234234"></iframe>
+	<div class="slide"> -->
+
+	<footer>
+		<nav class="icone-menu">	
+			<ul>
+			<li class="fontelo icon-home-1"></li>
+			<li class="fontelo icon-graduation-cap"></li>
+			<li class="fontelo icon-calendar"></li>
+			<li class="fontelo icon-search"></li>
+			<li class="fontelo icon-bell-2" for ><input type="checkbox" class="pesquisa" ></li>
+			</ul>
+		</nav>
+	</footer>	
+</body>
+</html>
